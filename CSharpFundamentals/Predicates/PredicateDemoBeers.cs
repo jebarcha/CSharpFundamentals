@@ -12,20 +12,8 @@ namespace CSharpFundamentals.Predicates
         public int Alcohol { get; set; }
     }
 
-    public static class PredicateDemo
+    public static class PredicateDemoBeers
     {
-        public static void PredicateDemo1()
-        {
-            var numbers = new List<int> { 1, 56, 2, 3, 3, 45, 6 };
-            //var predicate = new Predicate<int>(IsDividerBy2);
-            var predicate = new Predicate<int>(n => n % 2 == 0);
-            Predicate<int> negativePredicate = x => !predicate(x);
-            var dividersBy2 = numbers.FindAll(negativePredicate);
-
-            dividersBy2.ForEach(n => Console.WriteLine(n));
-        }
-        //static bool IsDividerBy2(int n) => n % 2 == 0;
-
         public static void PredicateBeers()
         {
             var beers = new List<Beer>() { 
