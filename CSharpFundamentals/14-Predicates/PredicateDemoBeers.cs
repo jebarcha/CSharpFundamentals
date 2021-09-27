@@ -11,12 +11,13 @@ namespace CSharpFundamentals.Predicates
     {
         public static void PredicateBeers()
         {
-            var beers = new List<Beer>() { 
-                new Beer() { Name = "Ipa", Alcohol = 3 },
-                new Beer() { Name = "Pale ale", Alcohol = 8 },
-                new Beer() { Name = "Stout", Alcohol = 9 },
-                new Beer() { Name = "Tripel", Alcohol = 15 }
-            };
+            var beers = BeerUtils.Beers();
+            //var beers = new List<Beer>() { 
+            //    new Beer() { Name = "Ipa", Alcohol = 3 },
+            //    new Beer() { Name = "Pale ale", Alcohol = 8 },
+            //    new Beer() { Name = "Stout", Alcohol = 9 },
+            //    new Beer() { Name = "Tripel", Alcohol = 15 }
+            //};
 
             //ShowBeersThatMakesMeDrunk(beers, x => x.Alcohol >= 8  //without extended method
             beers.ShowBeersThatMakesMeDrunk(x => x.Alcohol >= 8 && x.Alcohol<15);   //with extended method, we extend List :)

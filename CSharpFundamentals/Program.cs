@@ -1,14 +1,17 @@
 ﻿using CSharpFundamentals._03_ArraysAndLists;
+using CSharpFundamentals._10_Generics;
+using CSharpFundamentals._11_LINQ;
 using CSharpFundamentals._15_Closures;
 using CSharpFundamentals.DelegatesFuncAndAction;
 using CSharpFundamentals.Predicates;
 using System;
+using System.Threading.Tasks;
 
 namespace CSharpFundamentals
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             //CSharpFundamentals._03_ArraysAndLists.DemoTmp.DemoReverseCad();
             //return;
@@ -17,6 +20,8 @@ namespace CSharpFundamentals
             Console.WriteLine("3.2 Lists");
             Console.WriteLine("3.3 Queues");
             Console.WriteLine("3.4 Stacks");
+            Console.WriteLine("10. Generics");
+            Console.WriteLine("11. LINQ");
             Console.WriteLine("13.1 Delegates");
             Console.WriteLine("13.2 Func");
             Console.WriteLine("13.3 Action");
@@ -37,6 +42,13 @@ namespace CSharpFundamentals
                     break;
                 case "3.4":
                     ArraysDemo1.StackDemo();
+                    break;
+                case "10":
+                    await GenericsDemo1.GenericsDemo();
+                    break;
+                case "11":
+                    //LinqDemo1.LinqDemo();
+                    LinqDemo1.LinqDemoBeers();
                     break;
                 case "13.1":
                     DelegatesDemo1.DelegateDemo1("TestDelegateDemo");
