@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpFundamentals.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,12 +7,6 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals.Predicates
 {
-    public class Beer
-    {
-        public string Name { get; set; }
-        public int Alcohol { get; set; }
-    }
-
     public static class PredicateDemoBeers
     {
         public static void PredicateBeers()

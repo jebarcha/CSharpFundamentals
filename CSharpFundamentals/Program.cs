@@ -13,7 +13,10 @@ namespace CSharpFundamentals
             //CSharpFundamentals._03_ArraysAndLists.DemoTmp.DemoReverseCad();
             //return;
 
-            Console.WriteLine("3. Arrays");
+            Console.WriteLine("3.1 Arrays");
+            Console.WriteLine("3.2 Lists");
+            Console.WriteLine("3.3 Queues");
+            Console.WriteLine("3.4 Stacks");
             Console.WriteLine("13.1 Delegates");
             Console.WriteLine("13.2 Func");
             Console.WriteLine("13.3 Action");
@@ -23,8 +26,17 @@ namespace CSharpFundamentals
 
             switch (selection)
             {
-                case "3":
+                case "3.1":
                     ArraysDemo1.ArraysDemo();
+                    break;
+                case "3.2":
+                    ArraysDemo1.ListsDemo();
+                    break;
+                case "3.3":
+                    ArraysDemo1.QueueDemo();
+                    break;
+                case "3.4":
+                    ArraysDemo1.StackDemo();
                     break;
                 case "13.1":
                     DelegatesDemo1.DelegateDemo1("TestDelegateDemo");
