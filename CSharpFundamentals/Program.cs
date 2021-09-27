@@ -1,4 +1,6 @@
-﻿using CSharpFundamentals.DelegatesFuncAndAction;
+﻿using CSharpFundamentals._03_ArraysAndLists;
+using CSharpFundamentals._15_Closures;
+using CSharpFundamentals.DelegatesFuncAndAction;
 using CSharpFundamentals.Predicates;
 using System;
 
@@ -8,14 +10,22 @@ namespace CSharpFundamentals
     {
         static void Main(string[] args)
         {
+            //CSharpFundamentals._03_ArraysAndLists.DemoTmp.DemoReverseCad();
+            //return;
+
+            Console.WriteLine("3. Arrays");
             Console.WriteLine("13.1 Delegates");
             Console.WriteLine("13.2 Func");
             Console.WriteLine("13.3 Action");
             Console.WriteLine("14. Predicates");
+            Console.WriteLine("15. Closures");
             var selection = Console.ReadLine();
 
             switch (selection)
             {
+                case "3":
+                    ArraysDemo1.ArraysDemo();
+                    break;
                 case "13.1":
                     DelegatesDemo1.DelegateDemo1("TestDelegateDemo");
                     break;
@@ -28,6 +38,9 @@ namespace CSharpFundamentals
                 case "14":
                     //PredicateDemo1.PredicateDemo();
                     PredicateDemoBeers.PredicateBeers();
+                    break;
+                case "15":
+                    ClosuresDemo1.ClosuresDemo();
                     break;
                 default:
                     break;
