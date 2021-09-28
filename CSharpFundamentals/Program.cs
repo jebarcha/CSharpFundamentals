@@ -1,6 +1,7 @@
 ﻿using CSharpFundamentals._03_ArraysAndLists;
 using CSharpFundamentals._10_Generics;
 using CSharpFundamentals._11_LINQ;
+using CSharpFundamentals._12_AsyncronousTasks;
 using CSharpFundamentals._15_Closures;
 using CSharpFundamentals.DelegatesFuncAndAction;
 using CSharpFundamentals.Predicates;
@@ -22,6 +23,7 @@ namespace CSharpFundamentals
             Console.WriteLine("3.4 Stacks");
             Console.WriteLine("10. Generics");
             Console.WriteLine("11. LINQ");
+            Console.WriteLine("12. Asyncronous Tasks");
             Console.WriteLine("13.1 Delegates");
             Console.WriteLine("13.2 Func");
             Console.WriteLine("13.3 Action");
@@ -49,6 +51,9 @@ namespace CSharpFundamentals
                 case "11":
                     //LinqDemo1.LinqDemo();
                     LinqDemo1.LinqDemoBeers();
+                    break;
+                case "12":
+                    AsyncDemo1.AsyncDemo();
                     break;
                 case "13.1":
                     DelegatesDemo1.DelegateDemo1("TestDelegateDemo");
