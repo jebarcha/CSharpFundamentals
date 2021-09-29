@@ -1,4 +1,5 @@
 ﻿using CSharpFundamentals._03_ArraysAndLists;
+using CSharpFundamentals._08_Lambda_Expressions;
 using CSharpFundamentals._09_AnonymousTypes;
 using CSharpFundamentals._10_Generics;
 using CSharpFundamentals._11_LINQ;
@@ -22,6 +23,7 @@ namespace CSharpFundamentals
             Console.WriteLine("3.2 Lists");
             Console.WriteLine("3.3 Queues");
             Console.WriteLine("3.4 Stacks");
+            Console.WriteLine("8. Lambda Expressions");
             Console.WriteLine("9. Anonymous Types");
             Console.WriteLine("10. Generics");
             Console.WriteLine("11. LINQ");
@@ -46,6 +48,13 @@ namespace CSharpFundamentals
                     break;
                 case "3.4":
                     ArraysDemo1.StackDemo();
+                    break;
+                case "8":
+                    Console.WriteLine("--------------------");
+                    //LambdaExpressionsDemo1.LambdaExpressionsDemo();
+                    //LambdaExpressionsDemo1.LambdaExpressionsDemo2();
+                    //LambdaExpressionsDemo1.LambdaExpressionsDemo3();
+                    LambdaExpressionsDemo1.LambdaExpressionsDemo4();
                     break;
                 case "9":
                     //AnonymousTypesDemo1.AnonymousTypesDemo();
