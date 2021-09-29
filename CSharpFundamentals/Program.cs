@@ -1,4 +1,5 @@
 ﻿using CSharpFundamentals._03_ArraysAndLists;
+using CSharpFundamentals._09_AnonymousTypes;
 using CSharpFundamentals._10_Generics;
 using CSharpFundamentals._11_LINQ;
 using CSharpFundamentals._12_AsyncronousTasks;
@@ -21,6 +22,7 @@ namespace CSharpFundamentals
             Console.WriteLine("3.2 Lists");
             Console.WriteLine("3.3 Queues");
             Console.WriteLine("3.4 Stacks");
+            Console.WriteLine("9. Anonymous Types");
             Console.WriteLine("10. Generics");
             Console.WriteLine("11. LINQ");
             Console.WriteLine("12. Asyncronous Tasks");
@@ -44,6 +46,11 @@ namespace CSharpFundamentals
                     break;
                 case "3.4":
                     ArraysDemo1.StackDemo();
+                    break;
+                case "9":
+                    //AnonymousTypesDemo1.AnonymousTypesDemo();
+                    //AnonymousTypesDemo1.AnonymousTypesDemo2();
+                    AnonymousTypesDemo1.AnonymousTypesDemo3();
                     break;
                 case "10":
                     await GenericsDemo1.GenericsDemo();
