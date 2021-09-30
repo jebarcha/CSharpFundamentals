@@ -1,4 +1,5 @@
 ﻿using CSharpFundamentals._03_ArraysAndLists;
+using CSharpFundamentals._07_TenWaysToIterateAnArray;
 using CSharpFundamentals._08_Lambda_Expressions;
 using CSharpFundamentals._09_AnonymousTypes;
 using CSharpFundamentals._10_Generics;
@@ -16,6 +17,9 @@ namespace CSharpFundamentals
     {
         static async Task Main(string[] args)
         {
+            //Algorithms.AlgoDemo.IsPalindromeDemo();
+            //return;
+
             //CSharpFundamentals._03_ArraysAndLists.DemoTmp.DemoReverseCad();
             //return;
 
@@ -23,6 +27,7 @@ namespace CSharpFundamentals
             Console.WriteLine("3.2 Lists");
             Console.WriteLine("3.3 Queues");
             Console.WriteLine("3.4 Stacks");
+            Console.WriteLine("7. Ten ways to iterate an array");
             Console.WriteLine("8. Lambda Expressions");
             Console.WriteLine("9. Anonymous Types");
             Console.WriteLine("10. Generics");
@@ -48,6 +53,10 @@ namespace CSharpFundamentals
                     break;
                 case "3.4":
                     ArraysDemo1.StackDemo();
+                    break;
+                case "7":
+                    Console.WriteLine("--------------------");
+                    TenWaysToIterateAnArray.Closure_10();
                     break;
                 case "8":
                     Console.WriteLine("--------------------");
