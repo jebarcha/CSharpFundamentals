@@ -1,4 +1,5 @@
 ﻿using CSharpFundamentals._03_ArraysAndLists;
+using CSharpFundamentals._06_Tuples;
 using CSharpFundamentals._07_TenWaysToIterateAnArray;
 using CSharpFundamentals._08_Lambda_Expressions;
 using CSharpFundamentals._09_AnonymousTypes;
@@ -27,6 +28,7 @@ namespace CSharpFundamentals
             Console.WriteLine("3.2 Lists");
             Console.WriteLine("3.3 Queues");
             Console.WriteLine("3.4 Stacks");
+            Console.WriteLine("6. Tuples");
             Console.WriteLine("7. Ten ways to iterate an array");
             Console.WriteLine("8. Lambda Expressions");
             Console.WriteLine("9. Anonymous Types");
@@ -40,6 +42,7 @@ namespace CSharpFundamentals
             Console.WriteLine("15. Closures");
             var selection = Console.ReadLine();
 
+            Console.WriteLine("--------------------");
             switch (selection)
             {
                 case "3.1":
@@ -54,12 +57,17 @@ namespace CSharpFundamentals
                 case "3.4":
                     ArraysDemo1.StackDemo();
                     break;
+                case "6":
+                    TuplesDemo1.TuplesDemo();
+                    Console.WriteLine("Tuples BeerDB demo-------------");
+                    TuplesBeerDemo.TuplesBeer();
+                    Console.WriteLine("Tuples - Composite pattern demo");
+                    CompositionWithTuplesDemo.CompositionWithTuples();
+                    break;
                 case "7":
-                    Console.WriteLine("--------------------");
                     TenWaysToIterateAnArray.Closure_10();
                     break;
                 case "8":
-                    Console.WriteLine("--------------------");
                     //LambdaExpressionsDemo1.LambdaExpressionsDemo();
                     //LambdaExpressionsDemo1.LambdaExpressionsDemo2();
                     //LambdaExpressionsDemo1.LambdaExpressionsDemo3();
