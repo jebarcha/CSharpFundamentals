@@ -7,6 +7,8 @@ using CSharpFundamentals._10_Generics;
 using CSharpFundamentals._11_LINQ;
 using CSharpFundamentals._12_AsyncronousTasks;
 using CSharpFundamentals._15_Closures;
+using CSharpFundamentals._16_Task;
+using CSharpFundamentals._17_Threads;
 using CSharpFundamentals.DelegatesFuncAndAction;
 using CSharpFundamentals.Predicates;
 using System;
@@ -40,6 +42,8 @@ namespace CSharpFundamentals
             Console.WriteLine("13.3 Action");
             Console.WriteLine("14. Predicates");
             Console.WriteLine("15. Closures");
+            Console.WriteLine("16. Task");
+            Console.WriteLine("17. Threads");
             var selection = Console.ReadLine();
 
             Console.WriteLine("--------------------");
@@ -103,6 +107,12 @@ namespace CSharpFundamentals
                     break;
                 case "15":
                     ClosuresDemo1.ClosuresDemo();
+                    break;
+                case "16":
+                    await TaskDemo1.TaskDemo();
+                    break;
+                case "17":
+                    ThreadsDemo1.ThreadsDemo();
                     break;
                 default:
                     break;
