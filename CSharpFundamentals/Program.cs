@@ -91,7 +91,14 @@ namespace CSharpFundamentals
                     break;
                 case "11":
                     //LinqDemo1.LinqDemo();
-                    LinqDemo1.LinqDemoBeers();
+                    //LinqDemo1.LinqDemoBeers();
+
+                    //Linq5MethodsDemo.Linq5Methods_1_Union();
+                    //Linq5MethodsDemo.Linq5Methods_2_Zip();
+                    //Linq5MethodsDemo.Linq5Methods_3_Join();
+                    //Linq5MethodsDemo.Linq5Methods_4_All();
+                    Linq5MethodsDemo.Linq5Methods_5_SelectMany();
+
                     break;
                 case "12":
                     AsyncDemo1.AsyncDemo();
