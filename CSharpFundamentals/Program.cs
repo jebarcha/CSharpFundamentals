@@ -4,6 +4,7 @@ using CSharpFundamentals._07_TenWaysToIterateAnArray;
 using CSharpFundamentals._08_Lambda_Expressions;
 using CSharpFundamentals._09_AnonymousTypes;
 using CSharpFundamentals._10_Generics;
+using CSharpFundamentals._11._1_PLINQ;
 using CSharpFundamentals._11_LINQ;
 using CSharpFundamentals._12_AsyncronousTasks;
 using CSharpFundamentals._15_Closures;
@@ -88,6 +89,9 @@ namespace CSharpFundamentals
                     break;
                 case "10":
                     await GenericsDemo1.GenericsDemo();
+                    break;
+                case "11.1":
+                    PLINQDemo1.PLINQDemo();
                     break;
                 case "11":
                     //LinqDemo1.LinqDemo();
