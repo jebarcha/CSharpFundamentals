@@ -9,6 +9,7 @@ using CSharpFundamentals._12_AsyncronousTasks;
 using CSharpFundamentals._15_Closures;
 using CSharpFundamentals._16_Task;
 using CSharpFundamentals._17_Threads;
+using CSharpFundamentals._18_ThreadPool;
 using CSharpFundamentals.DelegatesFuncAndAction;
 using CSharpFundamentals.Predicates;
 using System;
@@ -44,6 +45,7 @@ namespace CSharpFundamentals
             Console.WriteLine("15. Closures");
             Console.WriteLine("16. Task");
             Console.WriteLine("17. Threads");
+            Console.WriteLine("18. ThreadPool");
             var selection = Console.ReadLine();
 
             Console.WriteLine("--------------------");
@@ -113,6 +115,9 @@ namespace CSharpFundamentals
                     break;
                 case "17":
                     ThreadsDemo1.ThreadsDemo();
+                    break;
+                case "18":
+                    ThreadPoolDemo1.ThreadPoolDemo();
                     break;
                 default:
                     break;
