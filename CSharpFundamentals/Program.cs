@@ -1,4 +1,5 @@
-﻿using CSharpFundamentals._03_ArraysAndLists;
+﻿using CSharpFundamentals._02_SerializeAndDeserialize;
+using CSharpFundamentals._03_ArraysAndLists;
 using CSharpFundamentals._06_Tuples;
 using CSharpFundamentals._07_TenWaysToIterateAnArray;
 using CSharpFundamentals._08_Lambda_Expressions;
@@ -29,6 +30,7 @@ namespace CSharpFundamentals
             //CSharpFundamentals._03_ArraysAndLists.DemoTmp.DemoReverseCad();
             //return;
 
+            Console.WriteLine("2 Serialize and Deserialize");
             Console.WriteLine("3.1 Arrays");
             Console.WriteLine("3.2 Lists");
             Console.WriteLine("3.3 Queues");
@@ -39,6 +41,7 @@ namespace CSharpFundamentals
             Console.WriteLine("9. Anonymous Types");
             Console.WriteLine("10. Generics");
             Console.WriteLine("11. LINQ");
+            Console.WriteLine("11.1 PLINQ");
             Console.WriteLine("12. Asyncronous Tasks");
             Console.WriteLine("13.1 Delegates");
             Console.WriteLine("13.2 Func");
@@ -54,6 +57,9 @@ namespace CSharpFundamentals
             Console.WriteLine("--------------------");
             switch (selection)
             {
+                case "2":
+                    SerializeAndDeserializeDemo1.SerializeAndDeserializeDemo();
+                    break;
                 case "3.1":
                     ArraysDemo1.ArraysDemo();
                     break;
