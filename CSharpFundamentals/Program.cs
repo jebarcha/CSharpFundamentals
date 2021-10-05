@@ -1,5 +1,6 @@
 ﻿using CSharpFundamentals._02_SerializeAndDeserialize;
 using CSharpFundamentals._03_ArraysAndLists;
+using CSharpFundamentals._04_Memoization;
 using CSharpFundamentals._06_Tuples;
 using CSharpFundamentals._07_TenWaysToIterateAnArray;
 using CSharpFundamentals._08_Lambda_Expressions;
@@ -35,6 +36,7 @@ namespace CSharpFundamentals
             Console.WriteLine("3.2 Lists");
             Console.WriteLine("3.3 Queues");
             Console.WriteLine("3.4 Stacks");
+            Console.WriteLine("4 Memoization");
             Console.WriteLine("6. Tuples");
             Console.WriteLine("7. Ten ways to iterate an array");
             Console.WriteLine("8. Lambda Expressions");
@@ -71,6 +73,9 @@ namespace CSharpFundamentals
                     break;
                 case "3.4":
                     ArraysDemo1.StackDemo();
+                    break;
+                case "4":
+                    MemoizationDemo1.Factorial();
                     break;
                 case "6":
                     TuplesDemo1.TuplesDemo();
