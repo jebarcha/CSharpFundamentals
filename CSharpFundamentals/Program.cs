@@ -9,6 +9,7 @@ using CSharpFundamentals._10_Generics;
 using CSharpFundamentals._11._1_PLINQ;
 using CSharpFundamentals._11_LINQ;
 using CSharpFundamentals._12_AsyncronousTasks;
+using CSharpFundamentals._14_Predicates;
 using CSharpFundamentals._15_Closures;
 using CSharpFundamentals._16_Task;
 using CSharpFundamentals._17_Threads;
@@ -129,7 +130,8 @@ namespace CSharpFundamentals
                     break;
                 case "14":
                     //PredicateDemo1.PredicateDemo();
-                    PredicateDemoBeers.PredicateBeers();
+                    //PredicateDemoBeers.PredicateBeers();
+                    PredicateDemoThree.PredicateThree();
                     break;
                 case "15":
                     ClosuresDemo1.ClosuresDemo();
