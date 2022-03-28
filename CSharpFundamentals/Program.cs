@@ -27,6 +27,22 @@ namespace CSharpFundamentals
     {
         static async Task Main(string[] args)
         {
+
+            //IterationsDemo.Iterations.DoWhile();
+            //IterationsDemo.Iterations.While();
+            //IterationsDemo.Iterations.For();
+            //IterationsDemo.Iterations.ForEach();
+            //IterationsDemo.Iterations.ForEachItem();
+            //IterationsDemo.Iterations.ListForEach();
+            //IterationsDemo.Iterations.Recursive();
+            //IterationsDemo.Iterations.GoTo();
+            //IterationsDemo.Iterations.ThreadingTasksParallel();
+            //IterationsDemo.Iterations.LambdaExpression();
+            IterationsDemo.Iterations.UsingClosures();
+
+            return;
+
+
             //Algorithms.AlgoDemo.IsPalindromeDemo();
             //return;
 
