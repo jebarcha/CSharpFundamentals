@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals.Algorithms
 {
-    public static class AlgoDemo
+    public static class Palindrome
     {
         public static void IsPalindromeDemo()
         {
             string text = "abba abba"; //"jose de"; //"anna anna";
             //if (IsPalindromeStack(text))
             if (IsPalindrome(text))
-                    Console.WriteLine($"Is a Palindrome: {text}");
+                    Console.WriteLine($"True, Is a Palindrome: {text}");
             else
-                Console.WriteLine($"Is Not a Palindrome: {text}");
+                Console.WriteLine($"False, Is Not a Palindrome: {text}");
         }
-        private static bool IsPalindrome(string input)
+        public static bool IsPalindrome(string input)
         {
             var inputWithNoSpaces = input.Replace(" ", "");
             var stringReverse = input.Replace(" ","").Reverse().ToArray();

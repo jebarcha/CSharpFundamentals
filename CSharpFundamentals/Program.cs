@@ -38,8 +38,11 @@ namespace CSharpFundamentals
             //IterationsDemo.Iterations.GoTo();
             //IterationsDemo.Iterations.ThreadingTasksParallel();
             //IterationsDemo.Iterations.LambdaExpression();
-            IterationsDemo.Iterations.UsingClosures();
+            //IterationsDemo.Iterations.UsingClosures();
 
+
+            //CSharpFundamentals.Algorithms.Palindrome.IsPalindromeDemo();
+            CSharpFundamentals.Algorithms.core.Buble.RunBuble();
             return;
 
 
