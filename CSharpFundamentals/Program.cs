@@ -45,7 +45,8 @@ namespace CSharpFundamentals
             //CSharpFundamentals.Algorithms.core.Buble.RunBuble();
             //CSharpFundamentals.Algorithms.core.Factorial.CalculateFactorial(5);
             //CSharpFundamentals.Algorithms.core.Fibonacci.GetFibonacci(5);
-            CSharpFundamentals.Algorithms.core.InvertAString.InvertDemo();
+            //CSharpFundamentals.Algorithms.core.InvertAString.InvertDemo();
+            CSharpFundamentals.Algorithms.core.TimesRepeatCharacter.RepeatCharDemo();
             return;
 
 
