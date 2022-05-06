@@ -40,15 +40,17 @@ namespace CSharpFundamentals
             //IterationsDemo.Iterations.LambdaExpression();
             //IterationsDemo.Iterations.UsingClosures();
 
-
+            #region algorithms
             //CSharpFundamentals.Algorithms.Palindrome.IsPalindromeDemo();
             //CSharpFundamentals.Algorithms.core.Buble.RunBuble();
             //CSharpFundamentals.Algorithms.core.Factorial.CalculateFactorial(5);
             //CSharpFundamentals.Algorithms.core.Fibonacci.GetFibonacci(5);
             //CSharpFundamentals.Algorithms.core.InvertAString.InvertDemo();
-            CSharpFundamentals.Algorithms.core.TimesRepeatCharacter.RepeatCharDemo();
+            //CSharpFundamentals.Algorithms.core.TimesRepeatCharacter.RepeatCharDemo();
+            //CSharpFundamentals.Algorithms.core.HammingDistance.HammingDemo();
+            CSharpFundamentals.Algorithms.core.WordCounter.WordCounterDemo();
             return;
-
+            #endregion
 
             //Algorithms.AlgoDemo.IsPalindromeDemo();
             //return;
