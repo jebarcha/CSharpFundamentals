@@ -42,7 +42,8 @@ namespace CSharpFundamentals
 
 
             //CSharpFundamentals.Algorithms.Palindrome.IsPalindromeDemo();
-            CSharpFundamentals.Algorithms.core.Buble.RunBuble();
+            //CSharpFundamentals.Algorithms.core.Buble.RunBuble();
+            CSharpFundamentals.Algorithms.core.Factorial.CalculateFactorial(5);
             return;
 
 
