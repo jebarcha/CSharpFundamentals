@@ -48,7 +48,8 @@ namespace CSharpFundamentals
             //CSharpFundamentals.Algorithms.core.InvertAString.InvertDemo();
             //CSharpFundamentals.Algorithms.core.TimesRepeatCharacter.RepeatCharDemo();
             //CSharpFundamentals.Algorithms.core.HammingDistance.HammingDemo();
-            CSharpFundamentals.Algorithms.core.WordCounter.WordCounterDemo();
+            //CSharpFundamentals.Algorithms.core.WordCounter.WordCounterDemo();
+            CSharpFundamentals.Algorithms.core.CountNumbersInAString.CountNumbersDemo();
             return;
             #endregion
 
