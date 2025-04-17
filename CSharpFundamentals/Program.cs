@@ -16,6 +16,7 @@ using CSharpFundamentals._16_Task;
 using CSharpFundamentals._17_Threads;
 using CSharpFundamentals._18_ThreadPool;
 using CSharpFundamentals._19_Parallel;
+using CSharpFundamentals._22_Serilog;
 using CSharpFundamentals.DelegatesFuncAndAction;
 using CSharpFundamentals.Predicates;
 using System;
@@ -27,6 +28,12 @@ namespace CSharpFundamentals
     {
         static async Task Main(string[] args)
         {
+            SerilogDemo.Demo();
+            return;
+
+            //CSharpFundamentals._21_RegEx.RegExDemoWithNumbers.Demo();
+
+            //return;
 
             //IterationsDemo.Iterations.DoWhile();
             //IterationsDemo.Iterations.While();
@@ -49,9 +56,17 @@ namespace CSharpFundamentals
             //CSharpFundamentals.Algorithms.core.TimesRepeatCharacter.RepeatCharDemo();
             //CSharpFundamentals.Algorithms.core.HammingDistance.HammingDemo();
             //CSharpFundamentals.Algorithms.core.WordCounter.WordCounterDemo();
-            CSharpFundamentals.Algorithms.core.CountNumbersInAString.CountNumbersDemo();
-            return;
+            //CSharpFundamentals.Algorithms.core.CountNumbersInAString.CountNumbersDemo();
+            //return;
             #endregion
+
+            #region RegEx
+            //CSharpFundamentals._21_RegEx.RegExZipExtensions.Demo();
+            #endregion
+
+            //string demo = null;
+            //Console.WriteLine(string.IsNullOrEmpty(demo));
+            //return;
 
             //Algorithms.AlgoDemo.IsPalindromeDemo();
             //return;
